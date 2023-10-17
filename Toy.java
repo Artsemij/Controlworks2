@@ -23,7 +23,11 @@ public class Toy {
 
     public int getQuantity() {
         return quantity;
-    }   
+    }  
+    
+    public void setQuantity(int quantity){
+        this.quantity = quantity;
+    }
     
 
     public double getWeight() {
@@ -34,7 +38,4 @@ public class Toy {
         this.weight = weight;
     }
 
-    public void setQuantity(int quantity){
-        this.quantity = quantity;
-    }
 }

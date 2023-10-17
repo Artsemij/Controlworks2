@@ -23,7 +23,7 @@ public class ToyStore {
         }
     }
 
-    public Toy findToyById(String toyId) {
+    public String findToyById(String toyId) {
         for (Toy toy : toys) {
             if (toy.getId().equals(toyId)) {
                 return toy;
